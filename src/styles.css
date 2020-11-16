@@ -1,0 +1,39 @@
+li {
+  width: 340px;
+
+  list-style: none;
+  border: 2px solid black;
+}
+li:not(:last-child) {
+  margin-right: 5px;
+}
+ul {
+  display: flex;
+}
+body {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+li.pagination-item {
+  /* width: 30px;
+  height: 30px; */
+
+  border: none;
+}
+ul.pagination {
+  margin: 15px 420px;
+  padding: 0px;
+}
+button {
+  width: 30px;
+  height: 30px;
+}
+
+.active {
+  background: #ff6b08;
+  border-radius: 5px;
+}
